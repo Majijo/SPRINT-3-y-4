@@ -4,7 +4,7 @@ const morgan = require("morgan");
 require("dotenv").config();
 
 const productsRouter = require("./routes/products.js");
-const { notFound, errorHandler } = require("./middlewares/errorHandler.js"); // sin "s"
+const { notFound, errorHandler } = require("./middlewares/errorHandler.js");
 const logger = require("./middlewares/logger.js");
 
 const app = express();
