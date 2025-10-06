@@ -1,0 +1,16 @@
+{
+  "name": "muebleria-hermanos-jota",
+  "version": "1.0.0",
+  "description": "E-commerce Mueblería Hermanos Jota - Monorepo",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd front && npm install",
+    "install:all": "npm run install:backend && npm run install:frontend",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd front && npm run dev",
+    "dev": "echo 'Ejecuta npm run start:backend en una terminal y npm run start:frontend en otra'"
+  },
+  "keywords": ["ecommerce", "muebleria", "react", "express", "nodejs"],
+  "author": "Equipo NEXUS",
+  "license": "ISC"
+}
